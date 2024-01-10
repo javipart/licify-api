@@ -3,7 +3,9 @@
 Este proyecto se desarrolló en NodeJS junto con Express
 
 ### Despliegue
-
+Se debe clonar el proyecto
+Se debe contar con el archivo .env, enviado por correo, alojado en la raíz del proyecto
+Ejecutar el comando npm install
 El Proyecto debe desplegarse usando npm start y se inicia en el puerto 3010
 
 ### Información Importante
