@@ -104,7 +104,7 @@ class ProjectRepository {
         $match: {
           $and: [
             { propousals: { $not: { $size: 0 } } },
-            { provider: '' },
+            { provider: null },
             { 'propousals.provider': providerId }
           ]
         }
